@@ -210,7 +210,7 @@ namespace BankManagements{
 
                         account.WriteResume(resumeSaveAccount, "compteEpargne");
 
-                        Console.WriteLine("Merci et à bientôt");
+                        Console.WriteLine("Merci et à bientôt !");
                         Environment.Exit(0);
                         
                         break;
