@@ -1,0 +1,6 @@
+Compte courant
+Le propriétaire est : Vincent MICHEL
+Depot de : 100 à 11/02/2023 17:01:56 solde actuel : 2600
+Retrait de : 800 à 11/02/2023 17:02:17 Solde actuel : 1800
+Depot de : 400 à 11/02/2023 17:02:31 solde actuel : 2200
+Retrait de : 500 à 11/02/2023 17:02:45 Solde actuel : 1700
