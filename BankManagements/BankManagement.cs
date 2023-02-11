@@ -87,7 +87,7 @@ namespace BankManagements{
                     case "CD":
                         Console.Clear();
 
-                        Console.WriteLine("Quel montant souhaitez- vous déposez sur le compte courant : ");
+                        Console.WriteLine("Quel montant souhaitez- vous déposer sur le compte courant : ");
 
                         currentAccount.Depot = double.Parse(Console.ReadLine());
 
@@ -137,7 +137,7 @@ namespace BankManagements{
                     case "ED":
                         Console.Clear();
                         
-                        Console.WriteLine("Quel montant souhaitez- vous déposez sur le compte épargne : ");
+                        Console.WriteLine("Quel montant souhaitez- vous déposer sur le compte épargne : ");
                         
                         saveAccount.Depot = double.Parse(Console.ReadLine());
                         
@@ -157,7 +157,7 @@ namespace BankManagements{
                             
                             saveAccount.SoldeDepot(saveAccount.Depot);
                             
-                            Console.WriteLine("Vous avez retirer " + saveAccount.Depot +" € de votre compte courant pour la tranférer sur l'épargne. Votre nouveau solde courant est de : " + currentAccount.Solde + " €");
+                            Console.WriteLine("Vous avez retiré " + saveAccount.Depot +" € de votre compte courant pour la tranférer sur l'épargne. Votre nouveau solde courant est de : " + currentAccount.Solde + " €");
                             
                             Console.WriteLine("Votre solde d'épargne est de : " + saveAccount.Solde + " €");
                             
@@ -193,7 +193,7 @@ namespace BankManagements{
                             
                             currentAccount.SoldeDepot(saveAccount.Retrait);
                             
-                            Console.WriteLine("Vous avez retirez " + saveAccount.Retrait + " € du compte épargne pour la transférer sur le compte courant. Votre nouveau solde d'épargne est de : " + saveAccount.Solde + " €" );
+                            Console.WriteLine("Vous avez retiré " + saveAccount.Retrait + " € du compte épargne pour la transférer sur le compte courant. Votre nouveau solde d'épargne est de : " + saveAccount.Solde + " €" );
                             
                             Console.WriteLine("Votre solde courant est de de : " + currentAccount.Solde + " €");                        
                         }
